@@ -1,0 +1,14 @@
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\bin\Debug\net7.0\2.2.4.exe
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\bin\Debug\net7.0\2.2.4.deps.json
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\bin\Debug\net7.0\2.2.4.runtimeconfig.json
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\bin\Debug\net7.0\2.2.4.dll
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\bin\Debug\net7.0\2.2.4.pdb
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\obj\Debug\net7.0\2.2.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\obj\Debug\net7.0\2.2.4.AssemblyInfoInputs.cache
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\obj\Debug\net7.0\2.2.4.AssemblyInfo.cs
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\obj\Debug\net7.0\2.2.4.csproj.CoreCompileInputs.cache
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\obj\Debug\net7.0\2.2.4.dll
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\obj\Debug\net7.0\refint\2.2.4.dll
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\obj\Debug\net7.0\2.2.4.pdb
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\obj\Debug\net7.0\2.2.4.genruntimeconfig.cache
+C:\Users\Арина\RiderProjects\2.2.4\2.2.4\obj\Debug\net7.0\ref\2.2.4.dll
