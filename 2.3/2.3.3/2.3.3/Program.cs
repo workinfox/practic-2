@@ -4,22 +4,22 @@ class Calculation
 {
     public string calculationLine { get; private set; }
 
-    public void SetCalculationLine(string line)
+    public void SetCalculationLine(string line) //устанавливаем значение строки вычислений 
     {
         calculationLine = line;
     }
 
-    public void SetLastSymbolCalculationLine(char symbol)
+    public void SetLastSymbolCalculationLine(char symbol) //добавляет символ к текущей строке вычислений
     {
         calculationLine += symbol;
     }
 
-    public string GetCalculationLine()
+    public string GetCalculationLine() //возвращает текущую строку вычислений
     {
         return calculationLine;
     }
 
-    public char GetLastSymbol()
+    public char GetLastSymbol() //возвращает последний символ в строке вычислений
     {
         if (string.IsNullOrEmpty(calculationLine))
         {
@@ -28,7 +28,7 @@ class Calculation
         return calculationLine[calculationLine.Length - 1];
     }
 
-    public void DeleteLastSymbol()
+    public void DeleteLastSymbol() //удаляет последний символ из строки вычислений
     {
         if (string.IsNullOrEmpty(calculationLine))
         {

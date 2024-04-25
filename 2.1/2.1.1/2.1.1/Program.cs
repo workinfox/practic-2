@@ -1,24 +1,22 @@
-﻿namespace _2._1._1;
+﻿using System;
 
 class Program
 {
     static void Main()
     {
-        Console.Write("Введите число J: ");
-        string J = Console.ReadLine();
-        Console.Write("Введите число S: ");
-        string S = Console.ReadLine();
+        string J = "ab"; //драгоценности
+        string S = "aabbccd"; //камни
 
-        int count = 0;
+        int count = 0; //сколько камней являются драгоценностями
 
-        foreach (char sumb in S)
+        foreach (char c in S) //все камни
         {
-            if (J.Contains(sumb))
+            if (J.Contains(c.ToString())) //драгоценность ли
             {
                 count++;
             }
         }
         
-        Console.WriteLine($"Вывод: {count}");
+        Console.WriteLine(count);
     }
 }

@@ -1,9 +1,10 @@
-﻿namespace _2._4._1;
+﻿namespace _2._4;
 
 class Program
 {
     static void Main()
     {
+        //выводим таблицу соответствия римских цифр и их значений
         Console.WriteLine("Символ       Значение");
         Console.WriteLine(" I               1");
         Console.WriteLine(" V               5");
@@ -12,12 +13,17 @@ class Program
         Console.WriteLine(" C               100");
         Console.WriteLine(" D               500");
         Console.WriteLine(" M               1000");
+        
         Console.Write("Введите римское число: ");
-        string input = Console.ReadLine();
+        string input = Console.ReadLine(); //просим пользователя ввести число
+        
+        //преобразуем римское число в целочисленное значение с помощью метода NumToInt и выводим результат
+        
         int result = NumToInt(input);
         Console.WriteLine($"Результат: {result}");
     }
 
+    // метод для преобразования римского числа в целое число
     public static int NumToInt(string s)
     {
         int result = 0;
@@ -37,6 +43,7 @@ class Program
         return result;
     }
 
+    // метод для получения значения римской цифры
     public static int CharToValue(char c)
     {
         switch (c)

@@ -1,4 +1,4 @@
-﻿namespace _2._2._2;
+﻿﻿namespace _2._2._2;
 
 class Train
 {
@@ -9,7 +9,7 @@ class Train
 
     public bool DisplayTrainInfo(string trainNumber)
     {
-        if (trainNumber == TrainNumber)
+        if (trainNumber == TrainNumber) //проверяет, совпадает ли переданный номер с номером поезда
         {
             Console.WriteLine($"Номер поезда: {TrainNumber}");
             Console.WriteLine($"Название пункта назначения: {DestinationName}");

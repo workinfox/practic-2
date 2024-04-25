@@ -1,27 +1,41 @@
-﻿namespace _2._1._3;
+﻿using System;
+using System.Collections.Generic; //доступ к ХашСет
+
 
 class Program
 {
-    static void Main()
-    {
-        Console.WriteLine("Введите целые числа через пробел:");
-        int[] nums = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-        
-        Console.WriteLine(Check(nums) ? "true" : "false");
-    }
-    
     static bool Check(int[] nums)
     {
+        //храним уникальные значения
         HashSet<int> set = new HashSet<int>();
-        
-        foreach(int num in nums)
+
+
+        foreach (int num in nums)
         {
-            if(set.Contains(num))
+            //
+            if (set.Contains(num))
             {
-                return true;
+                return true; //одержи, то возвращает тру
             }
-            set.Add(num);
+
+            set.Add(num); //если не элемент то отправляется в ХашСет
         }
-        return false;
+
+        return false; //если нет повтора, то Фалс
+    }
+
+    static void Main()
+    {
+        int[] nums1 = { 1, 2, 3, 4 };
+
+        int[] nums2 = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
+
+        int[] nums3 = {1, 2, 3, 1};
+        
+        Console.WriteLine(Check(nums1));
+        
+        Console.WriteLine(Check(nums2));
+        
+        Console.WriteLine(Check(nums3));
     }
 }

@@ -1,32 +1,38 @@
-﻿namespace _2._2._1;
+﻿﻿namespace _2._2._1;
 
 class Student
 {
+    //поля, в которых хранится информация
     public string Surname { get; set; }
     public DateTime DateOfBirth { get; set; }
     public string NumberGroup { get; set; }
     public int[] Grades { get; set; }
 
+    //получение и установление значений
     public void ChangeSurname(string newSurname)
     {
         Surname = newSurname;
     }
-
+    
+    //получение и установление значений
     public void ChangeDateOfBirth(DateTime newDateOfBirth)
     {
         DateOfBirth = newDateOfBirth;
     }
-
+    
+    //получение и установление значений
     public void ChangeNumberGroup(string newNumberGroup)
     {
         NumberGroup = newNumberGroup;
     }
-
+    
+    //получение и установление значений
     public void ChangeGrades(int[] newGrades)
     {
         Grades = newGrades;
     }
 
+    //выводим информацию о студенте
     public void StudentInfo()
     {
         Console.WriteLine("Информация о студенте:");
@@ -46,6 +52,7 @@ class Program
 {
     static void Main()
     {
+        //создаём объект
         Student student = new Student();
 
         Console.WriteLine("Введите информацию о студенте:");
@@ -58,7 +65,7 @@ class Program
 
         Console.Write("Номер группы: ");
         student.NumberGroup = Console.ReadLine();
-
+        
         student.Grades = new int[5]; // Массив оценок из 5 элементов
 
         bool editInfo = true;
